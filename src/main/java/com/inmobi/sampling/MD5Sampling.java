@@ -42,8 +42,8 @@ public class MD5Sampling extends EvalFunc<DataBag> {
         }
         int sample = (int) (100 / sampling);
         for (Tuple input : (DataBag) bag.get(0)) {
-            Double nonNullable = Double.valueOf((input.get(nonNullColumn).toString()));
-            if (nonNullable <= 0 && nonNullColumn >= 0) {
+            Double nonNullableColumnVaue = Double.valueOf((input.get(nonNullColumn).toString()));
+            if (nonNullableColumnVaue <= 0 && nonNullColumn >= 0) {
                 continue;
             }
             String rid = (String) input.get(columnNumber);
