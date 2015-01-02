@@ -18,7 +18,7 @@ public class MD5Sampling extends EvalFunc<DataBag> {
     private int reminder = 0;
     private float sampling = 0;
     private int columnNumber = 0;
-    private int nonNullColumn = 0;
+    private int nonNullColumn = -1;
 
     public static final String OUTPUT_BAG_NAME_PREFIX = "MD5";
 
@@ -42,6 +42,9 @@ public class MD5Sampling extends EvalFunc<DataBag> {
         }
         int sample = (int) (100 / sampling);
         for (Tuple input : (DataBag) bag.get(0)) {
+            if (nonNullColumn < 0) {
+                continue;
+            }
             Double nonNullable = Double.valueOf((input.get(nonNullColumn).toString()));
             if (nonNullable <= 0) {
                 continue;
