@@ -27,10 +27,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simple-mean.pig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MD5Sampling.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/inmobi/sampling/MD5Sampling.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24390244" vertical-offset="560" max-vertical-offset="1648">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple-mean.pig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/pig/simple-mean.pig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27371696" vertical-offset="0" max-vertical-offset="643">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
@@ -73,10 +85,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/inmobi/sampling/Upper.java" />
         <option value="$PROJECT_DIR$/src/main/pig/standarddeviation.pig" />
         <option value="$PROJECT_DIR$/src/main/pig/md5sample.pig" />
-        <option value="$PROJECT_DIR$/src/main/java/com/inmobi/sampling/MD5Sampling.java" />
         <option value="$PROJECT_DIR$/src/main/pig/mean.pig" />
         <option value="$PROJECT_DIR$/src/main/pig/m.pig" />
         <option value="$PROJECT_DIR$/src/main/pig/simple-mean.pig" />
+        <option value="$PROJECT_DIR$/src/main/java/com/inmobi/sampling/MD5Sampling.java" />
       </list>
     </option>
   </component>
@@ -995,12 +1007,12 @@
       <workItem from="1419226974520" duration="33936000" />
       <workItem from="1419578264932" duration="24782000" />
       <workItem from="1419928944203" duration="15329000" />
-      <workItem from="1420198500724" duration="11000" />
+      <workItem from="1420198500724" duration="274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84812000" />
+    <option name="totallyTimeSpent" value="85075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -1155,6 +1167,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="336" max-vertical-offset="496">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,6 +1175,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,6 +1190,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33142856" vertical-offset="21036" max-vertical-offset="50208">
           <caret line="1356" column="24" selection-start-line="1356" selection-start-column="24" selection-end-line="1356" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,6 +1230,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36585367" vertical-offset="0" max-vertical-offset="656">
           <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1258,6 +1274,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33231708" vertical-offset="982" max-vertical-offset="3712">
           <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,6 +1282,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33281493" vertical-offset="27274" max-vertical-offset="30512">
           <caret line="1762" column="25" selection-start-line="1762" selection-start-column="25" selection-end-line="1762" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,6 +1290,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29268292" vertical-offset="0" max-vertical-offset="3120">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,6 +1352,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33231708" vertical-offset="1062" max-vertical-offset="1728">
           <caret line="112" column="9" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,16 +1378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/inmobi/sampling/MD5Sampling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1696">
-          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/inmobi/sampling/StandardDeviation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.46341464" vertical-offset="624" max-vertical-offset="1280">
@@ -1379,6 +1389,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1312" max-vertical-offset="1968">
           <caret line="126" column="60" selection-start-line="126" selection-start-column="60" selection-end-line="126" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,9 +1403,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/pig/simple-mean.pig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27371696" vertical-offset="0" max-vertical-offset="643">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/inmobi/sampling/MD5Sampling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24390244" vertical-offset="560" max-vertical-offset="1648">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
