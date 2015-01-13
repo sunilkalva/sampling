@@ -3,23 +3,23 @@ A = Load '$input' using PigStorage('\u0001') AS (rq_id : chararray,impid : chara
 counter = group A all;
 grp        = group A by rq_siteid;
 
-tmean = foreach grp {
+localMeanTuple = foreach grp {
         sum   = SUM(A.bl_cpc);
-        count = COUNT(A);
-        generate group as rq_siteid, (double) sum/count as mean, (double) count as count, 1 as x;
+        groupCount = COUNT(A);
+        generate group as rq_siteid, (double) sum/groupCount as localMean, (double) groupCount as groupCount, 1 as x;
 };
 
 meanCount = foreach counter {
-        generate flatten(group) , 1 as x, COUNT(A) as totalRecords;
+        generate flatten(group) , 1 as x, COUNT(A) as totalCount;
 }
 
-TotalRecordJoin = join tmean by x, meanCount by x using 'replicated';
+TotalRecordJoin = join localMeanTuple by x, meanCount by x using 'replicated';
 
-AverageRecordsBurn = foreach TotalRecordJoin generate (tmean::count/meanCount::totalRecords)*(tmean::mean) as dd;
+AverageRecordsBurn = foreach TotalRecordJoin generate (localMeanTuple::groupCount / meanCount::totalCount) * (localMeanTuple::localMean) as avg;
 
 final = group AverageRecordsBurn all ;
 
-summ = foreach final generate SUM(AverageRecordsBurn.dd);
+finalMean = foreach final generate SUM(AverageRecordsBurn.avg);
 
-dump summ;
+dump finalMean;
 
