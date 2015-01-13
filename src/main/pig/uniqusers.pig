@@ -1,0 +1,113 @@
+REGISTER /jars/network-hygiene-1.1.11-SNAPSHOT.jar;
+REGISTER /jars/activation-1.1.jar;
+REGISTER /jars/antlr-2.7.7.jar;
+REGISTER /jars/antlr-3.4.jar;
+REGISTER /jars/antlr-runtime-3.5.jar;
+REGISTER /jars/asm-3.2.jar;
+REGISTER /jars/automaton-1.11-8.jar;
+REGISTER /jars/avro-1.7.4.jar;
+REGISTER /jars/bi-analytics-0.5.jar;
+REGISTER /jars/commons-beanutils-1.7.0.jar;
+REGISTER /jars/commons-beanutils-core-1.8.0.jar;
+REGISTER /jars/commons-cli-1.2.jar;
+REGISTER /jars/commons-codec-1.4.jar;
+REGISTER /jars/commons-collections-3.2.1.jar;
+REGISTER /jars/commons-compress-1.4.1.jar;
+REGISTER /jars/commons-configuration-1.6.jar;
+REGISTER /jars/commons-dbcp-1.4.jar;
+REGISTER /jars/commons-digester-1.8.jar;
+REGISTER /jars/commons-httpclient-3.1.jar;
+REGISTER /jars/commons-lang-2.5.jar;
+REGISTER /jars/commons-logging-1.1.1.jar;
+REGISTER /jars/commons-logging-api-1.1.jar;
+REGISTER /jars/commons-pool-1.5.4.jar;
+REGISTER /jars/datanucleus-connectionpool-2.0.3.jar;
+REGISTER /jars/datanucleus-core-2.0.3.jar;
+REGISTER /jars/datanucleus-enhancer-2.0.3.jar;
+REGISTER /jars/datanucleus-rdbms-2.0.3.jar;
+REGISTER /jars/derby-10.6.1.0.jar;
+REGISTER /jars/elephant-bird-core-4.5.jar;
+REGISTER /jars/elephant-bird-hadoop-compat-4.5.jar;
+REGISTER /jars/elephant-bird-pig-4.5.jar;
+--REGISTER /jars/fpjamr-0.6.118-without-dependency.jar;
+REGISTER /jars/gson-2.2.2.jar;
+REGISTER /jars/guava-11.0.2.jar;
+REGISTER /jars/hadoop-lzo-0.4.19.jar;
+REGISTER /jars/hcatalog-core-0.5.0-cdh4.3.0.jar;
+REGISTER /jars/hcatalog-pig-adapter-0.5.0-cdh4.3.0.jar;
+REGISTER /jars/hive-builtins-0.10.0-cdh4.3.0.jar;
+REGISTER /jars/hive-cli-0.10.0-cdh4.3.0.jar;
+REGISTER /jars/hive-common-0.10.0-cdh4.3.0.jar;
+REGISTER /jars/hive-contrib-0.10.0-cdh4.3.0.jar;
+REGISTER /jars/hive-exec-0.10.0-cdh4.3.0.jar;
+REGISTER /jars/hive-metastore-0.10.0-cdh4.3.0.jar;
+REGISTER /jars/hive-serde-0.10.0-cdh4.3.0.jar;
+REGISTER /jars/hive-service-0.10.0-cdh4.3.0.jar;
+REGISTER /jars/hive-shims-0.10.0-cdh4.3.0.jar;
+REGISTER /jars/hsqldb-1.8.0.10.jar;
+--REGISTER /jars/hsqldb-2.3.0.jar;
+REGISTER /jars/httpclient-4.1.3.jar;
+REGISTER /jars/httpcore-4.1.3.jar;
+REGISTER /jars/jackson-core-asl-1.8.8.jar;
+REGISTER /jars/jackson-mapper-asl-1.8.8.jar;
+REGISTER /jars/jansi-1.9.jar;
+REGISTER /jars/JavaEWAH-0.3.2.jar;
+REGISTER /jars/jdo2-api-2.3-ec.jar;
+REGISTER /jars/jep-java-3.4.jar;
+REGISTER /jars/jetty-util-6.1.26.cloudera.2.jar;
+--REGISTER /jars/jldap-4.3.jar;
+REGISTER /jars/jline-0.9.94.jar;
+REGISTER /jars/joda-time-2.3.jar;
+REGISTER /jars/jsch-0.1.42.jar;
+REGISTER /jars/json-20140107.jar;
+REGISTER /jars/json-simple-1.1.jar;
+REGISTER /jars/jsr305-1.3.9.jar;
+REGISTER /jars/jta-1.1.jar;
+REGISTER /jars/jython-standalone-2.5.2.jar;
+REGISTER /jars/krati-0.4.8.jar;
+REGISTER /jars/leveldbjni-all-1.5.jar;
+REGISTER /jars/libfb303-0.9.0.jar;
+REGISTER /jars/libthrift-0.5.0.0.jar;
+REGISTER /jars/libthrift-0.9.0.jar;
+REGISTER /jars/log4j-1.2.16.jar;
+--REGISTER /jars/mail-1.4.1.jar;
+REGISTER /jars/mockito-all-1.8.5.jar;
+--REGISTER /jars/network-ingestion-1.1.15.jar;
+REGISTER /jars/oro-2.0.8.jar;
+REGISTER /jars/paranamer-2.3.jar;
+REGISTER /jars/pig-0.11.0-cdh4.3.0.jar;
+REGISTER /jars/piggybank-0.12.1.jar;
+--REGISTER /jars/poi-3.7.jar;
+REGISTER /jars/protobuf-java-2.4.1.jar;
+REGISTER /jars/servlet-api-2.5.jar;
+--REGISTER /jars/slf4j-api-1.6.1.jar;
+REGISTER /jars/slf4j-log4j12-1.6.1.jar;
+--REGISTER /jars/slf4j-simple-1.5.6.jar;
+REGISTER /jars/snappy-java-1.0.4.1.jar;
+REGISTER /jars/ST4-4.0.4.jar;
+REGISTER /jars/stringtemplate-3.2.1.jar;
+--REGISTER /jars/thrift-0.5-types-1.1.15.jar;
+REGISTER /jars/trove4j-3.0.3.jar;
+--REGISTER /jars/user-piggybank-1.1.15.jar;
+--REGISTER /jars/user-utils-1.1.15.jar;
+REGISTER /jars/xz-1.0.jar;
+--REGISTER /jars/yoda-commons-0.6.160.jar;
+REGISTER /jars/yoda-pig-loader-0.6.118.jar;
+--REGISTER /jars/yoda-udfs-0.6.160.jar;
+REGISTER /jars/zookeeper-3.4.5-cdh4.3.0.jar;
+
+X = LOAD '$input' USING com.inmobi.dw.yoda.loader.PigLoader('rq_siteid,rq_udid')
+AS (
+  siteid : chararray,
+  udid : chararray
+);
+
+A = filter X by UPPER(udid) != 'NULL';
+
+a_uniq = DISTINCT A;
+
+STORE a_uniq INTO '/output/siteudid' using PigStorage('\u0001');
+
+a_uniq_count = foreach(group a_uniq by siteid)  generate FLATTEN(group), COUNT(a_uniq);
+
+STORE a_uniq_count INTO '$output' using PigStorage('\u0001');
